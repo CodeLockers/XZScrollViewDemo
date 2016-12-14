@@ -30,6 +30,8 @@
     self.scrollView.pagingEnabled = YES;
     self.scrollView.layer.masksToBounds = NO;
     
+    UICollectionView
+    
     for (NSInteger i=0; i<10; i++) {
         
         UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(i*width+20, (CGRectGetHeight(self.scrollView.frame) - width)/2.0f, width - 40, width-40)];
